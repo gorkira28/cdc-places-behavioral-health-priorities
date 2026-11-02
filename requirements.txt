@@ -1,0 +1,8 @@
+pandas>=2.2,<3
+numpy>=2.0,<3
+duckdb>=1.4,<2
+requests>=2.32,<3
+matplotlib>=3.9,<4
+geopandas>=1.0,<2
+pyogrio>=0.11,<1
+shapely>=2.0,<3

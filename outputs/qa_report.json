@@ -1,0 +1,37 @@
+{
+  "source_urls": {
+    "cdc_places": "https://data.cdc.gov/500-Cities-Places/PLACES-County-Data-GIS-Friendly-Format-2025-release/i46a-9kgh",
+    "census_boundaries": "https://www2.census.gov/geo/tiger/GENZ2025/shp/cb_2025_us_county_500k.zip"
+  },
+  "source_sha256": {
+    "cdc_places_county_2025_selected.csv": "f38c02bc612e4ae14a130ab8e719c798aec856bdcdda5abb7a5d0eacacc5b110",
+    "cb_2025_us_county_500k.zip": "aa976c00b181939755d0da757f4c7c2dc0103c3b3b4530fb2a91c2bb62fc777c"
+  },
+  "validation": {
+    "rows": 3143,
+    "unique_counties": 3143,
+    "bad_fips": 0,
+    "missing_depression": 187,
+    "missing_mhlth": 187,
+    "missing_access": 187,
+    "complete_components": 2956,
+    "bad_depression": 0,
+    "bad_mhlth": 0,
+    "bad_access": 0
+  },
+  "joined_counties": 2956,
+  "metrics": {
+    "eligible_counties": 2956,
+    "highest_priority_counties": 296,
+    "population_in_highest_priority_counties": 8023198,
+    "weighted_depression_highest_decile": 29.48401610127258,
+    "weighted_depression_other_counties": 21.924618064411874,
+    "weighted_distress_highest_decile": 21.708237032926935,
+    "weighted_distress_other_counties": 17.117665224299145,
+    "weighted_uninsured_highest_decile": 12.621269947469823,
+    "weighted_uninsured_other_counties": 11.344837580979165,
+    "depression_distress_pearson_r": 0.665942571401935,
+    "priority_score_cutpoint_top_decile": 75.88268471517203
+  },
+  "analysis_note": "Percentile-average screening score; no causal interpretation."
+}
